@@ -1,0 +1,19 @@
+% shows a picture from a pdf in the same directory, which contains a lot of pages
+\newcommand{\mypiccore}[1]{
+	\includegraphics[page=#1, scale=0.7]{cours-automates.pdf}
+}
+
+% show the picture centered
+\newcommand{\mypic}[1]{
+	\begin{center}
+		\mypiccore{#1}
+	\end{center}
+}
+
+\newcommand{\Eve}{\text{Eve}}
+\newcommand{\Adam}{\text{Adam}}
+
+\newcommand{\Paths}{\text{Paths}}
+\newcommand{\Hist}{\text{Hist}}
+
+\newcommand{\N}{\mathbb N}
